@@ -1,38 +1,32 @@
-// row= 6
-// col = 6
-
 /*
+    Row = 6
+    Col = 6
 
- $ * * * * $
- $ * * * * $
- $ * * * * $
- $ * * * * $
- $ * * * * $
- $ * * * * $
 
+    $   *   *   *   *   $
+    $   *   *   *   *   $
+    $   *   *   *   *   $
+    $   *   *   *   *   $             
+    $   *   *   *   *   $             
+    $   *   *   *   *   $             
 
 */
 
-#include<stdio.h>
+#include<stdio.h>   
 
-void Display(int irow ,int icol)
+void Display(int iRow, int iCol)
 {
-    int i = 0, j =0;
+    int i = 0, j = 0;
     
-    if(irow != icol)
+    for(i = 1; i<= iRow; i++)
     {
-        printf("Please ennter the same no in rows and cols ..\n");
-        return;
-
-    }
-    for(i=1;i<=irow;i++)
-    {
-        for(j=1;j<=icol;j++)
+        for(j = 1; j<=iCol; j++)
         {
-            if((j==1)||(j == icol))
+            if((j == 1) || (j == iCol))
             {
                 printf("$\t");
             }
+
             else
             {
                 printf("*\t");
@@ -40,19 +34,19 @@ void Display(int irow ,int icol)
         }
         printf("\n");
     }
-
 }
+
 int main()
 {
     int iValue1 = 0, iValue2 = 0;
 
-    printf("Enter the no :\n");
+    printf("Enter number of rows\n");
     scanf("%d",&iValue1);
 
-     printf("Enter the no :\n");
+    printf("Enter number of columns\n");
     scanf("%d",&iValue2);
 
-     Display(iValue1,iValue2);
+    Display(iValue1,iValue2);
 
     return 0;
 }

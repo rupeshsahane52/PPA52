@@ -1,47 +1,22 @@
-/* 
-    
-     *
-  *  *       // if((i == 3)||(i == j)||(i == 5))
-* *  *
-  *  *
-     *
-
-
-*/
-
 #include<stdio.h>
 
-void Display(int iRow , int iCol)
-{
-    int i = 0, j = 0;
-
-    for(i =1;i<=iRow;i++)
-    {
-        for(j = 1;j<=iCol;j++)
-        {
-            if((i == 3)||(j % 1 == 0)||(i == 1)||(j == 1)||(i == iRow)||(j == iCol))
-            {
-                printf("*\t");
-            }
-            else
-            {
-                printf("  H \t");
-            }
-        }
-        printf("\n");
-    }
-}
 int main()
 {
-    int iValue1 = 0 ,iValue2 = 0;
+    char ch1 = 'a';
+    char ch2 = 'A';
+    char ch3 = '0';
 
-    printf("Enter the row = \n");
-    scanf("%d",&iValue1);
+    char ch4 = 'z';
+    char ch5 = 'Z';
+    char ch6 = '9';
 
-    printf("Enter the row = \n");
-    scanf("%d",&iValue2);
-    
-    Display(iValue1,iValue2);
+
+    printf("Character representation is %c and its ASCII value is : %d\n",ch1,ch1);
+    printf("Character representation is %c and its ASCII value is : %d\n",ch2,ch2);
+    printf("Character representation is %c and its ASCII value is : %d\n",ch3,ch3);
+    printf("Character representation is %c and its ASCII value is : %d\n",ch4,ch4);
+    printf("Character representation is %c and its ASCII value is : %d\n",ch5,ch5);
+    printf("Character representation is %c and its ASCII value is : %d\n",ch6,ch6);
 
     return 0;
 }
