@@ -10,27 +10,16 @@
 */
 #include<stdio.h>
 
-void Display(int iRow, int iCol)   // N^2
+void Display(int iRow, int iCol)   // N
 {
     int i = 0, j = 0;
 
-    if(iRow < 0)
+    for(i = 1; i<= iRow; i++)
     {
-        iRow = -iRow;
-    }
-    if(iCol < 0)
-    {
-        iCol = -iCol;
-    }
-    //    1       2       3      
-    for(i = 1; i<= iRow; i++)   // Outer
-    {
-        //    1         2       3
-        for(j = 1; j <= iCol; j++)  // Inner  4 of Outer
+        for(j = 1; j <= iCol; j++)
         {
-            printf("*\t");      // 4 of Inner
+            printf("*\t");
         }
-
         printf("\n");
     }
 }
