@@ -1,21 +1,15 @@
+// sort the array 
 
-class quiz1
+import java.util.*;
+
+ class quiz1
 {
     public static void main(String arg[])
     {
-        try{
-       ///////////////////////////////////////////////////////////////////////////////////////
+        int[] no = new int[]{555,10,21,101,51,01};
 
-       //////////////////////////////////////////////////////////////////////////////////////
-        short  x = 10;
+        Arrays.sort(no);
 
-        x  =  x * 5;
-
-        System.out.println(x);
+        System.out.print(Arrays.toString(no));
     }
-    catch(Exception e)
-    {
-        System.out.println(e);
-    }
-}
 }
