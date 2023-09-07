@@ -1,16 +1,12 @@
-
 #include<stdio.h>
 
-int main(void)
+int main()
 {
+    int a = 32768;
 
-    int a = 5,b= 10,temp;  // swap the values
+    unsigned int b = 65536;
 
-    temp = a;
-    a = b;
-    b= temp;
-
-    printf("a= %d\t, b = %d\t",a,b);
+    printf("%d %d",a,b);
 
     return 0;
 }

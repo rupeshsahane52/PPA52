@@ -1,15 +1,13 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
-    int a = 5, b = 6;
+    float f = 3.5e38;
+// Here is the error because of d is out of limit
+    double d = 3.5e309;
 
-    printf("%d\t ",a=b);  // 5
+    printf("%f %lf",f ,d);
 
-    printf("%d\t ",a == b);  // 5 
-
-    printf("%d\t %d\n",a,b);  // 5 5 
-
-    return 0; 
+    return 0;
 }

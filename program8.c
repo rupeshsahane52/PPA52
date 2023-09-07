@@ -1,21 +1,19 @@
+// swap the no
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
-    int a = 14, b ,c ;
+    int no1 = 11;
+    int no2 = 21;
+    int temp = 0;
 
-    a = a % 5 ;  // 
+    printf("No before swapping :%d %d\n",no1,no2);
+    temp = no1;
+    no1 = no2;
+    no2 = temp;
 
-    b = a % 3;  // 4
-
-    c = a / 5 % 3;  // 
-
-
-    printf("%d\t %d\t %d\t ",a,b,c);
-
-
-
+    printf("No After swapping :%d %d\n",no1,no2);
 
     return 0;
 }

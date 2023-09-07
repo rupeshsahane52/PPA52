@@ -1,18 +1,13 @@
-
 #include<stdio.h>
 
-int main(void)
+int main()
 {
 
-    float m1,m2,m3,m4,m5 , Percentage;
-
-    printf("Enter the marks : \n");
-    scanf("%f\n %f\n %f\n %f\n %f\n",&m1,&m2,&m3,&m4,&m5);
-
-    Percentage = 
-
-    printf("Percentage : %f\n",Percentage);
-
-
+    printf("c\t\bin\a");
     return 0;
 }
+
+/*
+output : cin 
+        : \a indicates beep 
+*/

@@ -1,14 +1,13 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
+    char ch = 128;
+    unsigned char b = 255;
 
-    int a = 10, b = 3 , max ;
-
-    a > b ? (max = a):  (max = b);
-
-    printf("%d\n",max);
+    printf("%d %d\n",ch,b);
 
     return 0;
+
 }

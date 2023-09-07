@@ -1,16 +1,9 @@
-
 #include<stdio.h>
 
-int main(void)
+int main()
 {
-    int a = 9;
-
-    char ch = 'A';
-
-    a = a + ch + 24;  // Acsii  value of A is 65
-
-
-    printf("%d   %c\t  %d , %c\t",ch,ch,a,a);   // Acsii  value of b is : 98
+    printf("%i %i %i ",72.072,0x72,0X72);
 
     return 0;
+
 }

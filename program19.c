@@ -1,19 +1,10 @@
-
 #include<stdio.h>
 
-int main(void)
+int main()
 {
-
-
-    int a = 10;
-    a = a++; //11
-
-    a = a++ * a--;  // 110
-
-    printf("%d\n",a);  //110
-
-    printf("%d %d\n",a++,a--);  //109 110
-
+    printf(" char occupies %d byte\n",sizeof(char));
+    printf(" int occupies %d byte\n",sizeof(int));
+    printf(" float occupies %d byte\n",sizeof(float));
 
     return 0;
 }

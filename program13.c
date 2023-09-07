@@ -1,21 +1,7 @@
-
-#include<stdio.h>
-
-int main(void)
-{
-    int a,b,c,d;
-
-    a=b=c=d=4;
-
-    a*=b+1;  
-
  
-   c += d*=3;
+ #include<stdio.h>
 
-    printf("a = %d\t  c = %d\t ",a,c); 
-
-
-
-
-    return 0;
-}
+ int main()
+ {
+    printf("%0.5d %0.5d %-0.5d",32,32,32);
+ }

@@ -1,15 +1,11 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
+    printf("c:\\tc\\bin");
 
-    int n ; 
-
-    printf("Enter the no :\n");
-    scanf("%d",&n);
-
-    printf("Octal : %o\n  Hexadecimal : %x\n",n,n);
-    
     return 0;
 }
+
+// output : c:\\tc\\bin

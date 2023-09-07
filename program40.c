@@ -1,28 +1,13 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
+    int a  =  0;
 
-    int a = 10 , b = 80 , c = 30;
+    a = 2*3.25+((3+6)/2);
 
-    if(a == 10)
-    if(b == 20)
-    if(c == 30)
-
-
-    printf(" a is  10 , b is 20 , c is 30\n");
-    else
-
-     printf(" a is  10 , b is not  20 \n");
-    else
-
-     printf(" a is  10  b is not 20 \n");
-    else
-
-    
+    printf("The result of evlution is %d",a);
 
     return 0;
 }
-
-// a is 10 b is not 20

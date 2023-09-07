@@ -1,4 +1,4 @@
-// Differrence between Pre-increment and Post-increment 
+// Differrence between Pre-decrement and Post-decrement 
 
 #include<stdio.h>
 
@@ -6,9 +6,9 @@ int main()
 {
     int a = 10,b=10,c,d;
 
-    c=++a;
+    c=--a;
 
-    d=b++; 
+    d=b--; 
 
     printf("a=%d\n b=%d\n c=%d\n d=%d\n",a,b,c,d);
 
@@ -18,8 +18,8 @@ int main()
 /*
 Result :
 
-a = 11
-b= 11
-c = 11
+a = 9
+b= 9
+c = 9
 d = 10
 */

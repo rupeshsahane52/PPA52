@@ -1,17 +1,11 @@
-
 #include<stdio.h>
 
-int main(void)
+int main()
 {
-
-    int i = 10;
-
-    i == 50;
-
-    if(i == 50)
-        printf("i is fifty\n");    // i is not fifty
-    else
-        printf("i is not fifty\n");
+    printf("hello
+    ");
 
     return 0;
 }
+
+// error 

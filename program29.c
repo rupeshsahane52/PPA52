@@ -1,18 +1,13 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
+    char *p = "Welcome...""to c programming";
 
-    int a = 9 , b= 0, c = 0;
-
-    if(!a < 10 && !b || c)
-        printf(" C in depth\n");
-    else
-        printf("See in depth\n");
-
+    printf(p);
 
     return 0;
 }
 
-// See in depth
+// output : "Welcome...to c programming"

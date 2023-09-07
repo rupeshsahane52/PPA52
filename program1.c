@@ -1,11 +1,11 @@
-
-// jay Ganesh
+// First C program 
 
 #include<stdio.h>
 
 int main()
 {
-    printf("Welcome Marvellous family...\n");
+    printf("Jay Ganesh");
 
     return 0;
+
 }

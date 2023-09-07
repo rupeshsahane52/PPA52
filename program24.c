@@ -1,15 +1,18 @@
 
 #include<stdio.h>
 
-int main(void)
+int main()
 {
 
-    int n ; 
-
-    printf("Enter the no : \n");
-   scanf("%d",&n);
-
-    printf(" remainder : %d",n % 3);   // 1
+    printf("\nab");
+    printf("\nbsi");
+    printf("\nha");
 
     return 0;
 }
+
+/* output : ab
+          : bsi
+          :ha
+
+*/         
